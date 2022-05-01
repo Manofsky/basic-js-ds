@@ -9,13 +9,10 @@ const { NotImplementedError } = require('../extensions/index.js');
 class BinarySearchTree {
 
   root() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+    if (this.length === 0) this.root = null;
   }
 
   add(/* data */) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
   }
 
   has(/* data */) {
